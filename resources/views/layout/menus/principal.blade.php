@@ -8,7 +8,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://wa.me/5520057633" target="_blank">
-                  <img src="{{ env('APP_URL') }}/assets/images2022/icno_whatsapp_insti.png" width="80px">
+                  <img src="{{ env('APP_URL') }}/assets/images2022/icno_whatsapp_uni.png" width="80px">
                 </a>
             </li>
         </ul>

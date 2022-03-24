@@ -9,28 +9,27 @@
 
 @section('content')
 
-    {{-- <section>
-        <img src="{{ env('APP_URL') }}/assets/images2022/titulo_index_insti.png" width="100%">
-    </section> --}}
+    <section>
+        <img src="{{ env('APP_URL') }}/assets/images2022/titulo_index_uni.png" width="100%">
+    </section>
 
     <div id="haller_carousel" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
-      <ul class="carousel-indicators">
+      {{-- <ul class="carousel-indicators">
         <li data-target="#haller_carousel" data-slide-to="0" class="active"></li>
         <li data-target="#haller_carousel" data-slide-to="1"></li>
         <li data-target="#haller_carousel" data-slide-to="2"></li>
         <li data-target="#haller_carousel" data-slide-to="3"></li>
         <li data-target="#haller_carousel" data-slide-to="4"></li>
-
-      </ul>
+      </ul> --}}
 
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{ env('APP_URL') }}/assets/images2022/banner_index_1.png" width="100%">
+          <img src="{{ env('APP_URL') }}/assets/images2022/banner_index_uni_01.jpg" width="100%">
         </div>
-        <div class="carousel-item">
+        {{-- <div class="carousel-item">
           <img src="{{ env('APP_URL') }}/assets/images2022/banner_index_2.png" width="100%">
         </div>
         <div class="carousel-item">
@@ -41,23 +40,23 @@
         </div>
         <div class="carousel-item">
           <img src="{{ env('APP_URL') }}/assets/images2022/banner_index_5.png" width="100%">
-        </div>
+        </div> --}}
       </div>
 
       <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#haller_carousel" data-slide="prev">
+      {{-- <a class="carousel-control-prev" href="#haller_carousel" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </a>
       <a class="carousel-control-next" href="#haller_carousel" data-slide="next">
         <span class="carousel-control-next-icon"></span>
-      </a>
+      </a> --}}
 
     </div>
 
     <section class="oferta_edu container-fluid" id="ofed" style="margin: 100px 0px;">
         <div class="row titlemid">
             <div class="col-md-4"><hr></div>
-            <div class="col-md-4 text-center text-white">LICENCIATURAS</div>
+            <div class="col-md-4 text-center text-white">SERVICIOS</div>
             <div class="col-md-4"><hr></div>
         </div>
     </section>
@@ -71,7 +70,6 @@
       <ol class="carousel-indicators carousel-indicators-ofed">
         <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
         <li data-target="#multi-item-example" data-slide-to="1"></li>
-        <li data-target="#multi-item-example" data-slide-to="2"></li>
 
       </ol>
       <!--/.Indicators-->
@@ -84,21 +82,21 @@
 
           <div class="col-4" style="float:left">
            <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/universidad/ac_admon.png" width="90%" class="img-ofed" onclick="goTo('admon')">
+              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_insti_sobrecargo.png" width="90%" class="img-ofed" onclick="goTo('sobrecargo')">
               <div class="centered dnone">VER MÁS</div></a>
             </div>
           </div>
 
           <div class="col-4" style="float:left">
             <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/universidad/ac_ciencias.png" width="90%" class="img-ofed" onclick="goTo('ciencias')">
+              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_03.png" width="90%" class="img-ofed" onclick="goTo('licenciaturas')">
               <div class="centered dnone">VER MÁS</div>
             </div>
           </div>
 
           <div class="col-4" style="float:left">
             <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/universidad/ac_comercio.png" width="90%" class="img-ofed" onclick="goTo('comercio')">
+              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_01.png" width="90%" class="img-ofed" onclick="goTo('idiomas')">
               <div class="centered dnone">VER MÁS</div>
             </div>
           </div>
@@ -111,47 +109,20 @@
 
           <div class="col-4" style="float:left">
             <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/universidad/ac_derecho.png" width="90%" class="img-ofed" onclick="goTo('derecho')">
+              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_02.png" width="90%" class="img-ofed" onclick="goTo('cursos')">
               <div class="centered dnone">VER MÁS</div>
             </div>
           </div>
 
           <div class="col-4" style="float:left">
             <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/universidad/ac_gastro.png" width="90%" class="img-ofed" onclick="goTo('gastro')">
-              <div class="centered dnone">VER MÁS</div>
-            </div>
-          </div>
-
-          <div class="col-4" style="float:left">
-            <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/universidad/ac_merca.png" width="90%" class="img-ofed" onclick="goTo('merca')">
+              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_04.png" width="90%" class="img-ofed" onclick="goTo('online')">
               <div class="centered dnone">VER MÁS</div>
             </div>
           </div>
 
         </div>
         <!--/.Second slide-->
-
-        <!--Third slide-->
-        <div class="carousel-item">
-
-          <div class="col-4" style="float:left">
-            <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/universidad/ac_turismo.png" width="90%" class="img-ofed" onclick="goTo('turismo')">
-              <div class="centered dnone">VER MÁS</div>
-            </div>
-          </div>
-
-          {{-- <div class="col-4" style="float:left">
-            <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/universidad/ac_promo.png" width="90%" class="img-ofed" onclick="goTo('promo')">
-              <div class="centered dnone">VER MÁS</div>
-            </div>
-          </div> --}}
-
-        </div>
-        <!--/.Third slide-->
 
       </div>
       <!--/.Slides-->
@@ -293,7 +264,7 @@
       });
 
       function goTo(page) {
-        window.location.href = direction+'licenciatura/'+page;
+        window.location.href = direction+page;
       }
 
   </script>

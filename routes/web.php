@@ -34,6 +34,13 @@ Route::group(array('middleware' => 'langMiddleware'), function () {
     Route::get('blog-detail/{id}', array('as' => 'blog-detail', 'uses' => 'FrontEndController@blog_detail'));
     Route::get('postContact', array('as' => 'postContact', 'uses' => 'FrontEndController@postContact'));
 
+
+    Route::get('licenciaturas', array('as' => 'licenciaturas', 'uses' => 'FrontEndController@licenciaturas'));
+    Route::get('sobrecargo', array('as' => 'sobrecargo', 'uses' => 'FrontEndController@sobrecargo'));
+    Route::get('idiomas', array('as' => 'idiomas', 'uses' => 'FrontEndController@idiomas'));
+    Route::get('cursos', array('as' => 'cursos', 'uses' => 'FrontEndController@cursos'));
+    Route::get('online', array('as' => 'online', 'uses' => 'FrontEndController@online'));
+
     $route = 'licenciatura';
     $controller = 'FrontEndController@';
     Route::group(array('prefix' => $route), function () use ($route, $controller) {

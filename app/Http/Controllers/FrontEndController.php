@@ -278,6 +278,26 @@ class FrontEndController extends Controller
         return view('licenciatura.turismo', compact($this->compact));
     }
 
+    public function licenciaturas(){
+        $active = 'licenciaturas';
+        return view('licenciaturas', compact($this->compact));
+    }
+
+    public function sobrecargo(){
+        $active = 'sobrecargo';
+        return view('sobrecargo', compact($this->compact));
+    }
+
+    public function cursos(){
+        $active = 'cursos';
+        return view('cursos', compact($this->compact));
+    }
+
+    public function online(){
+        $active = 'online';
+        return view('online', compact($this->compact));
+    }
+
     public function blog(){
         $active = 'blog';
         $last_blog = Blog::where('available', 1)->orderBy('id', 'DESC')->first();
@@ -293,6 +313,8 @@ class FrontEndController extends Controller
         $blog = Blog::find($blog_id);
         return view('blog.detail', compact($this->compact, 'blog'));
     }
+
+
 
     // public function getPurchases(){
     //     $active = 'my-purchases';
