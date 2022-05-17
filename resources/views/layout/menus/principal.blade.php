@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <ul class="nav navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="https://www.facebook.com/InstitutoRafaelHaller/" target="_blank">
+                <a class="nav-link" href="https://www.facebook.com/CentroUniversitarioHallerOficial" target="_blank">
                   <img src="{{ env('APP_URL') }}/assets/images/fb_az_in.png" width="80px">
                 </a>
             </li>
@@ -14,7 +14,7 @@
         </ul>
         <ul class="nav navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/institutorafael_haller/" target="_blank">
+                <a class="nav-link" href="https://www.instagram.com/centrouniversitariohaller/" target="_blank">
                   <img src="{{ env('APP_URL') }}/assets/images/in_az_in.png" width="80px">
                 </a>
             </li>

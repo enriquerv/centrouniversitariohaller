@@ -11,13 +11,13 @@
 					<img src="{{ env('APP_URL') }}/assets/images2022/logo_bco_unihaller.png" width="250px">
 				</p>
 				<p class="text-center">
-					<a href="https://www.facebook.com/InstitutoRafaelHaller/" target="_blank" class="mr-3">
+					<a href="https://www.facebook.com/CentroUniversitarioHallerOficial/" target="_blank" class="mr-3">
 						<img src="{{ env('APP_URL') }}/assets/images2022/uni_f.png" width="50px">
 					</a>
 					<a href="https://wa.me/5520057633" target="_blank" class="mr-3">
 						<img src="{{ env('APP_URL') }}/assets/images2022/icno_whatsapp_uni_bco.png" width="50px">
 					</a>
-					<a href="https://www.instagram.com/institutorafael_haller/" target="_blank" class="mr-3">
+					<a href="https://www.instagram.com/centrouniversitariohaller/" target="_blank" class="mr-3">
 						<img src="{{ env('APP_URL') }}/assets/images2022/uni_i.png" width="50px">
 					</a>
 					<a href="https://www.youtube.com/user/institutiohaller" target="_blank" class="mr-3">

@@ -96,7 +96,7 @@
 
           <div class="col-4" style="float:left">
             <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_01.png" width="90%" class="img-ofed" onclick="goTo('idiomas')">
+              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_04.png" width="90%" class="img-ofed" onclick="goTo('online')">
               <div class="centered dnone">VER MÁS</div>
             </div>
           </div>
@@ -109,14 +109,14 @@
 
           <div class="col-4" style="float:left">
             <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_02.png" width="90%" class="img-ofed" onclick="goTo('cursos')">
+              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_01.png" width="90%" class="img-ofed" onclick="goTo('idiomas')">
               <div class="centered dnone">VER MÁS</div>
             </div>
           </div>
 
           <div class="col-4" style="float:left">
             <div class="card mb-2 containerImg text-center">
-              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_04.png" width="90%" class="img-ofed" onclick="goTo('online')">
+              <img src="{{ env('APP_URL') }}/assets/images2022/cards_servicios_uni_02.png" width="90%" class="img-ofed" onclick="goTo('cursos')">
               <div class="centered dnone">VER MÁS</div>
             </div>
           </div>
