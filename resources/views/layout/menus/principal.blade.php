@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-fixed-top navbar-light bg-light">
+<nav class="navbar navbar-expand-md navbar-fixed-top navbar-light bg-light nav_haller_normal">
     <div class="container-fluid">
         <ul class="nav navbar-nav">
             <li class="nav-item">
@@ -26,6 +26,31 @@
         </ul>
     </div>
 </nav>
+
+<div class="nav_haller_responsive navbar-light bg-light d-none">
+    <div class="row">
+        <div class="col-3 text-center">
+            <a class="nav-link img_nav_sm" href="https://www.facebook.com/CentroUniversitarioHallerOficial/" target="_blank">
+              <img src="{{ env('APP_URL') }}/assets/images/fb_az_in.png" width="80px">
+            </a>
+        </div>
+        <div class="col-3 text-left">
+            <a class="nav-link img_nav_sm" href="https://wa.me/5520057633" target="_blank">
+              <img src="{{ env('APP_URL') }}/assets/images2022/icno_whatsapp_uni.png" width="80px">
+            </a>
+        </div>
+        <div class="col-3 text-right">
+            <a class="nav-link img_nav_sm" href="https://www.instagram.com/centrouniversitariohaller/" target="_blank">
+              <img src="{{ env('APP_URL') }}/assets/images/in_az_in.png" width="80px">
+            </a>
+        </div>
+        <div class="col-3 text-center">
+            <a class="nav-link img_nav_sm" href="https://www.youtube.com/user/institutiohaller" target="_blank">
+              <img src="{{ env('APP_URL') }}/assets/images/yt_az_in.png" width="80px">
+            </a>
+        </div>
+    </div>
+</div>
 
 
 <nav class="navbar navbar-expand-md navbar-fixed-top navbar-light bg-light main-nav">

@@ -204,10 +204,10 @@
         }
 
         .carousel-control-next-ofed{
-            right: -120px;
+            /*right: -120px;*/
         }
         .carousel-control-prev-ofed{
-            left: -120px;
+            /*left: -120px;*/
         }
         .carousel-indicators-ofed{
             bottom: -60px;
