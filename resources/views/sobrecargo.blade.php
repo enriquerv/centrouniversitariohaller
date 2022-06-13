@@ -23,43 +23,55 @@
 
     <div class="container" id="objetivo_sobrecargo">
         <div class="row pt-5">
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <h2>OBJETIVO GENERAL HALLER</h2>
-                <p>
-                    Proporcionar a nuestros alumnos, conocimientos y procedimientos técnicos que les permitan desempeñarse en situaciones normales, de emergencia y de asistencia al pasajero.
+                <p class="mt-5">
+                    Desarrollar y proporcionar a nuestros alumnos, conocimientos, habilidades y procedimientos técnicos que les permitan desempeñarse en situaciones normales, de emergencia y de asistencia al pasajero.
                 </p>
-                <p>
+                <p class="mt-5">
                     Satisfacer las necesidades y exigencias de cualquier compañía aérea, nacional e internacional, privada y comercial, a través de sus prácticas profesionales y sus programas de estudio.
                 </p>
             </div>
-            <div class="col-md-6 text-center">
-                <img src="{{ env('APP_URL') }}/assets/images_sobrecargo/pw_s_img1.jpg" width="70%">
+            <div class="col-md-4 text-center">
+                <img src="{{ env('APP_URL') }}/assets/images_sobrecargo/pw_s_img1.jpg" width="100%">
             </div>
 
-            <div class="col-md-6 pt-5" id="ventajas_sobrecargo">
-                <h2>VENTAJAS DE ESTAR EN HALLER</h2>
+            <div class="col-md-8 pt-5" id="ventajas_sobrecargo">
+                <h2 class="mb-4">VENTAJAS DE ESTAR EN HALLER</h2>
 
-                <li>Instructores certificados por la AFAC (Agencia Federal de Aviación Civil).</li>
-                <li>Convenio para practicas con CAT (Centro de Adiestramiento Técnico) de Mexicana de Aviación.</li>
-                <li>Curso de primeros auxilios impartido por un médico certificado en Urgencias.</li>
-                <li>Certificación de primeros auxilios para los alumnos con valor curricular.</li>
-                <li>Ingles incluido durante todo el curso.</li>
-                <li>Simulador para prácticas de emergencia.</li>
-                <li>Curso de etiqueta.</li>
-                <li>Tramite de licencia de sobrecargo elaborado por la escuela.</li>
-                <li>Curso con duración de 4 meses.</li>
+                <li class="mt-3">Instructores certificados por la AFAC (Agencia Federal de Aviación Civil).</li>
+                <li class="mt-3">Convenio para practicas con CAT (Centro de Adiestramiento Técnico) de Mexicana de Aviación.</li>
+                <li class="mt-3">Curso de primeros auxilios impartido por un médico certificado en Urgencias.</li>
+                <li class="mt-3">Certificación de primeros auxilios para los alumnos con valor curricular, por la American Heart Association.</li>
+                <li class="mt-3">Inglés incluido durante todo el curso.</li>
+                <li class="mt-3">Simulador para prácticas de emergencia.</li>
+                <li class="mt-3">Curso de etiqueta.</li>
+                <li class="mt-3">Trámite de licencia de sobrecargo elaborado por la escuela.</li>
+                <li class="mt-3">Curso con duración de 4 meses.</li>
             </div>
-            <div class="col-md-6 pt-5 text-center">
-                <img src="{{ env('APP_URL') }}/assets/images_sobrecargo/pw_s_img2.jpg" width="70%">
+            <div class="col-md-4 pt-5 text-center">
+                <img src="{{ env('APP_URL') }}/assets/images_sobrecargo/pw_s_img2.jpg" width="100%">
             </div>
 
-            <section class="inst_video" id='contVideo' style="margin-top: 150px;">
+            {{-- <section class="inst_video" id='contVideo' style="margin-top: 150px;">
                 <video id="instVideo" controls>
                     <source src="{{ env('APP_URL') }}/assets/images_sobrecargo/sobrecargo.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-            </section>
+            </section> --}}
 
+        </div>
+    </div>
+
+    <div class="row mt-5 mb-5" id="plan_sobrecargo">
+        <div class="col-md-4 mt-4 text-center">
+            <img src="{{ env('APP_URL') }}/assets/images2022/1_sobrecargo.jpg" width="80%">
+        </div>
+        <div class="col-md-4 mt-4 text-center">
+            <img src="{{ env('APP_URL') }}/assets/images2022/2_sobrecargo.jpg" width="80%">
+        </div>
+        <div class="col-md-4 mt-4 text-center">
+            <img src="{{ env('APP_URL') }}/assets/images2022/3_sobrecargo.jpg" width="80%">
         </div>
     </div>
 
@@ -116,17 +128,18 @@
                 <h2>REQUISITOS HALLER</h2>
                 <li>Acta de nacimiento</li>
                 <li>Certificado de Bachillerato o Equivalente</li>
+                <li>RFC con homoclave</li>
                 <li>2 Fotografías tamaño infantil a color</li>
+                <li>2 Fotografías tamaño pasaporte</li>
                 <li>Nacionalidad Mexicana</li>
                 <li><a href="https://ts.sct.gob.mx/cis/pg00000002.jsp" target="_blank">Constancia de Aptitud Psicofisica</a></li>
-                <li>2 Fotografías tamaño pasaporte</li>
             </div>
             <div class="col-md-6 text-center">
                 <img src="{{ env('APP_URL') }}/assets/images_sobrecargo/pw_s_img3.jpg" width="100%">
             </div>
 
             <div class="col-md-6 pt-5">
-                <h2 class="pt-2">UNIFORME HALLER</h2>
+                <h2 class="pt-2 mb-4">UNIFORME HALLER</h2>
 
                 <h4 class="pt-2 pb-2">MUJERES</h4>
                 <li>Traje sastre azul marino</li>
@@ -135,11 +148,26 @@
                 <li>Medias de compresión color natural</li>
                 <li>Zapatillas lisas negras de piel , tacón mínimo de 5cm</li>
 
-                <h4 class="pt-2 pb-2">HOMBRES</h4>
+                <h4 class="pt-3 pb-2">UNIFORME PARA PRÁCTICAS</h4>
+                <li>Pantalón casual color caqui</li>
+                <li>Playera manga larga, tipo polo, con logo de la escuela</li>
+                <li>Zapatos negros de piso liso</li>
+                <li>Tobimedias color natural</li>
+                <li>Traje de baño negro (completo)</li>
+                <li>Gorra de natación</li>
+
+
+                <h4 class="mt-3 pt-4 pb-2">HOMBRES</h4>
                 <li>Traje sastre azul marino</li>
                 <li>Camisa blanca</li>
                 <li>Corbata roja</li>
                 <li>Zapatos de agujeta negros</li>
+
+                <h4 class="pt-3 pb-2">UNIFORME PARA PRÁCTICAS</h4>
+                <li>Pantalón casual color caqui</li>
+                <li>Playera manga larga, tipo polo, con logo de la escuela</li>
+                <li>Traje de baño</li>
+                <li>Gorra de natación</li>
             </div>
             <div class="col-md-6 pt-5">
                 <img src="{{ env('APP_URL') }}/assets/images/new/sob_05.jpg" width="100%">

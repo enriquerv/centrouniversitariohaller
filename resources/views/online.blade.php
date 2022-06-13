@@ -11,7 +11,7 @@
 
 
 <section>
-    <img src="{{ env('APP_URL') }}/assets/images2022/titulo_virtual.png" width="100%">
+    <img src="{{ env('APP_URL') }}/assets/images2022/titulo_online.jpg" width="100%">
 </section>
 
 
@@ -81,12 +81,46 @@
           Your browser does not support the video tag.
         </video>
       </section>
- --}}
+      --}}
+
+
       <div class="col-md-4 pt-5 pb-5">
         <hr style="margin-top: 3rem; border: 3px solid;">
       </div>
       <div class="col-md-4 pt-5 pb-5 text-center">
-        <img src="{{ env('APP_URL') }}/assets/images/new/icono_6v.png" width="100px">
+        <img src="{{ env('APP_URL') }}/assets/images2022/icono_lics_onlinehaller.png" width="100px">
+      </div>
+      <div class="col-md-4 pt-5 pb-5">
+        <hr style="margin-top: 3rem; border: 3px solid;">
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <a href="{{ URL::route('admon') }}"><img src="{{ env('APP_URL') }}/assets/images2022/cards_lic_admon.png" class="card_lic"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="{{ URL::route('ciencias') }}"><img src="{{ env('APP_URL') }}/assets/images2022/cards_lic_ciencias.png" class="card_lic"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="{{ URL::route('comercio') }}"><img src="{{ env('APP_URL') }}/assets/images2022/cards_lic_comercio.png" class="card_lic"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="{{ URL::route('derecho') }}"><img src="{{ env('APP_URL') }}/assets/images2022/cards_lic_derecho.png" class="card_lic"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="{{ URL::route('merca') }}"><img src="{{ env('APP_URL') }}/assets/images2022/cards_lic_merca.png" class="card_lic"></a>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="{{ URL::route('turismo') }}"><img src="{{ env('APP_URL') }}/assets/images2022/cards_lic_turismo.png" class="card_lic"></a>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 pt-5 pb-5">
+        <hr style="margin-top: 3rem; border: 3px solid;">
+      </div>
+      <div class="col-md-4 pt-5 pb-5 text-center">
+        <img src="{{ env('APP_URL') }}/assets/images/new/icono_5v.png" width="100px">
       </div>
       <div class="col-md-4 pt-5 pb-5">
         <hr style="margin-top: 3rem; border: 3px solid;">
@@ -96,7 +130,15 @@
         <a href="https://app.box.com/embed/s/y041u18rw8dduhoye42l?sortColumn=date&view=list" target="_blank"><img src="{{ env('APP_URL') }}/assets/images/new/online_4.jpg" width="75%"></a>
       </div>
       <div class="col-md-6 pt-5 pb-5 text-center">
-        <a href="https://www.bigmarker.com/communities/halleronline/conferences" target="_blank"><img src="{{ env('APP_URL') }}/assets/images/new/online_3.jpg" width="75%"></a>
+        <a href="https://www.youtube.com/channel/UC9oOPVBWvvGPbzHiNsbrB-Q" target="_blank"><img src="{{ env('APP_URL') }}/assets/images/new/online_3.jpg" width="75%"></a>
+      </div>
+
+      <div class="col-md-6 pt-5 pb-5 text-center">
+        <a href="#" {{-- target="_blank" --}}><img src="{{ env('APP_URL') }}/assets/images2022/boton_plataforma_haller.jpg" width="75%"></a>
+      </div>
+
+      <div class="col-md-6 pt-5 pb-5 text-center">
+        <a href="https://telmex.com/web/negocios/descarga_aplicacion_video" target="_blank"><img src="{{ env('APP_URL') }}/assets/images2022/boton_telmex_haller.jpg" width="75%"></a>
       </div>
 
     </div>
@@ -104,7 +146,13 @@
 
   <div class="row pt-5 pb-5">
     <div class="col-12">
-      <img src="{{ env('APP_URL') }}/assets/images/new/frase_online.png" width="100%">
+      <img src="{{ env('APP_URL') }}/assets/images2022/banner_aspel_pw_online.jpg" width="100%">
+    </div>
+  </div>
+
+  <div class="row pt-5 pb-5">
+    <div class="col-12">
+      <img src="{{ env('APP_URL') }}/assets/images2022/banner_frase_pw_online.jpg" width="100%">
     </div>
   </div>
 
@@ -114,7 +162,7 @@
   .tit-sobre{
     background: #01183a;
       color: white;
-      font-size: 32px;
+      font-size: 3em;
       padding: 50px 0;
       letter-spacing: 1px;
   }

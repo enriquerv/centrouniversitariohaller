@@ -20,19 +20,16 @@
   <div class="row">
     <div class="col-md-12">
       <p class="mt-4">
-        El lenguaje es la base de nuestra comunicación y por lo tanto, la parte medular de las relaciones humanas. A través del lenguaje somos capaces de expresar nuestros pensamientos y emociones. La actual integración internacional ha generado una creciente dependencia entre los distintos países del mundo que ha dado como resultado la unificación de diversas culturas, sociedades y mercados. Todo esto ha generado una serie de transformaciones sociales, políticas y económicas que han hecho inminente la necesidad de dominar otras lenguas.
+        El lenguaje es la base de nuestra comunicación y, por lo tanto, la parte medular de las relaciones humanas. A través del lenguaje somos capaces de expresar nuestros pensamientos y emociones. La actual integración internacional ha generado una creciente dependencia entre los distintos países del mundo que ha dado como resultado la unificación de diversas culturas, sociedades y mercados. Todo esto ha generado una serie de transformaciones sociales, políticas y económicas que han hecho inminente la necesidad de dominar otras lenguas.
       </p>
       <p class="mt-4">
         Centro de Idiomas te proporciona las herramientas necesarias para que construyas tu futuro.
       </p>
       <p class="mt-4">
-        Estudia cualquiera de los 5 idiomas que impartimos:
+        Estudia cualquiera de los idiomas que impartimos de forma presencial
         <ul>
           <li>Inglés</li>
-          <li>Alemán</li>
-          <li>Italiano</li>
           <li>Francés</li>
-          <li>Chino Mandarín</li>
         </ul>
       </p>
       <p class="mt-4">
