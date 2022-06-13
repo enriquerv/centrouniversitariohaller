@@ -130,7 +130,7 @@
         <a href="https://app.box.com/embed/s/y041u18rw8dduhoye42l?sortColumn=date&view=list" target="_blank"><img src="{{ env('APP_URL') }}/assets/images/new/online_4.jpg" width="75%"></a>
       </div>
       <div class="col-md-6 pt-5 pb-5 text-center">
-        <a href="https://www.youtube.com/channel/UC9oOPVBWvvGPbzHiNsbrB-Q" target="_blank"><img src="{{ env('APP_URL') }}/assets/images/new/online_3.jpg" width="75%"></a>
+        <a href="https://www.youtube.com/channel/UC9oOPVBWvvGPbzHiNsbrB-Q/videos?view_as=subscriber" target="_blank"><img src="{{ env('APP_URL') }}/assets/images/new/online_3.jpg" width="75%"></a>
       </div>
 
       <div class="col-md-6 pt-5 pb-5 text-center">
