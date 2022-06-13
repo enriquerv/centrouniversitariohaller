@@ -134,7 +134,7 @@
       </div>
 
       <div class="col-md-6 pt-5 pb-5 text-center">
-        <a href="#" {{-- target="_blank" --}}><img src="{{ env('APP_URL') }}/assets/images2022/boton_plataforma_haller.jpg" width="75%"></a>
+        <a href="https://halleronline.neolms.com/" target="_blank"><img src="{{ env('APP_URL') }}/assets/images2022/boton_plataforma_haller.jpg" width="75%"></a>
       </div>
 
       <div class="col-md-6 pt-5 pb-5 text-center">
